@@ -7,7 +7,7 @@ object Dependencies {
     val cats = "2.1.1"
     val fs2 = "2.3.0"
     val catsEffect = "2.1.3"
-    val circe = "0.12.3"
+    val circe = "0.13.0"
     val log4cats = "1.0.1"
     val http4s = "0.21.4"
   }
@@ -33,7 +33,7 @@ object Dependencies {
 
     "io.circe" %% "circe-core" % Versions.circe,
     "io.circe" %% "circe-parser" % Versions.circe,
-    "io.circe" %% "circe-derivation" % "0.12.0-M7",
+    "io.circe" %% "circe-derivation" % "0.13.0-M4",
 
     "org.http4s" %% "http4s-dsl" % Versions.http4s,
     "org.http4s" %% "http4s-blaze-server" % Versions.http4s,
